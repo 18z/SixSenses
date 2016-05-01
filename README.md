@@ -2,6 +2,6 @@
 
 ### Installtion
 
-    ```bash
-    make install
-    ```
+```bash
+make install
+```
