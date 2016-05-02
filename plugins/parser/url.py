@@ -15,6 +15,15 @@ def getUrlTitle(s):
 
     return soup.title.string
 
+def safebrowsingcheck(url):
+    from gglsbl import SafeBrowsingList
+
+    sbl = SafeBrowsingList('')
+
+    if sbl.lookup_url(url) is None:
+        return ':D Not in blacklist'
+    else:
+        return '@@ In the blacklist'
 
 def parse(clipboard_content):
     content = """
@@ -23,6 +32,9 @@ Url :
 
 Url Title :
 %s
-""" % (clipboard_content, getUrlTitle(clipboard_content))
+
+Google SafeBrowsing Check :
+%s
+""" % (clipboard_content, getUrlTitle(clipboard_content), safebrowsingcheck(clipboard_content))
 
     return content
