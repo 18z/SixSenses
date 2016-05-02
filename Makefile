@@ -1,7 +1,7 @@
 install:
 	cp Slx7hS3ns3onLinux.cfg ~/.Slx7hS3ns3onLinux.cfg
 	sudo apt-get update
-	sudo apt-get install sdcv
+	sudo apt-get install sdcv libsqlite3-dev
 	mkdir -p ~/.stardict/dic/
 	sudo pip install -r requirements.txt
 
