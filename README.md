@@ -1,4 +1,5 @@
-## Slx7hS3ns3onLinux - Sixth Sense on Linux
+## Sixth Sense on Linux - Clipboard Magic
+Right click the mouse, copy the text. MAGIC
 
 ### Installtion
 
