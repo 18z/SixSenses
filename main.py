@@ -125,7 +125,8 @@ def myDetect(clipboard_content):
         for i in hash_expect:
             if i in dictOfDecrypter:
                 log("  [+] %s ... try decrypt" % i)
-                result = dictOfDecrypter[i].decrypt(clipboard_content)
+                # result = dictOfDecrypter[i].decrypt(clipboard_content)
+                result = dictOfDecrypter[i].vt_report(clipboard_content)
                 if result:
                     content = """
 String :
