@@ -15,3 +15,4 @@ make install
 
 3.  Find URL title and check security risk with Google SafeBrowsing
 
+4.  Use Virus Total api to check if SHA-256 is potentially malicious
