@@ -12,10 +12,10 @@ import os
 import sys
 import pkgutil
 import importlib
-from libs import pyperclip
-from libs.configobj import ConfigObj
-from libs.Hash_ID_v1_1 import *
-from libs.Logger import Logger
+from core import pyperclip
+from core.configobj import ConfigObj
+from core.Hash_ID_v1_1 import *
+from core.Logger import Logger
 
 
 #### static variable ####
