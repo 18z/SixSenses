@@ -1,5 +1,5 @@
 import datetime
-from plugins.common import pretty
+from common import pretty
 
 name = 'timestamp'
 

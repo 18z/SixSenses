@@ -9,7 +9,7 @@ def isMatch(lang):
 
 
 def translate(clipboard_content):
-    from plugins.common import leet
+    from common import leet
 
     content = """
 L33T :
