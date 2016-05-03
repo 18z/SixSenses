@@ -1,6 +1,6 @@
 name = 'SHA-256'
 
-def decrypt(clipboard_content):
+# def decrypt(clipboard_content):
 
     # import re
     #
