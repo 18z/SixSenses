@@ -1,5 +1,7 @@
 ## Sixth Sense on Linux - Clipboard Magic
-Right click the mouse, copy the text. MAGIC
+Right click the mouse (or ctrl + c), copy the text. MAGIC
+
+![showcase](screenshots/six-sense.gif)
 
 ### Installtion
 
