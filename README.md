@@ -7,6 +7,12 @@ Right click the mouse, copy the text. MAGIC
 make install
 ```
 
+### Usage
+
+```
+python main.py
+```
+
 ### Modules
 
 1.  Translate English to Chinese
