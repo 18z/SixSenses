@@ -2,5 +2,5 @@ name = 'zenity'
 
 
 def show(content):
-    from plugins.libs import PyZenity
+    from plugins.common import PyZenity
     PyZenity.InfoMessage(content)
